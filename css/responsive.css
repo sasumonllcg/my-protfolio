@@ -1,0 +1,492 @@
+@media all and (max-width: 1920px) {}
+
+@media all and (max-width: 1700px) {}
+
+@media all and (max-width: 1450px) {}
+
+@media all and (max-width: 1366px) {
+    #about-sectioin {
+        padding: 50px 0px;
+    }
+
+    #skill-section {
+        padding: 50px 0px;
+    }
+
+    #protfolio-section {
+        padding: 50px 0px;
+    }
+
+    #services-section {
+        padding: 50px 0px;
+    }
+
+    #contact-section {
+        padding: 50px 0px;
+    }
+
+    .copy-right p {
+        font-size: 14px;
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .header-logo a {
+        font-size: 20px;
+    }
+
+    .header-menu ul li {
+        padding: 10px 12px;
+    }
+
+    .header-menu ul li a {
+        font-size: 16px;
+    }
+
+    .header-menu ul li a.hire-me {
+        font-size: 17px;
+        padding-top: 2px;
+    }
+
+    #about-sectioin {
+        padding: 40px 0px;
+    }
+
+    #skill-section {
+        padding: 40px 0px;
+    }
+
+    #protfolio-section {
+        padding: 40px 0px;
+    }
+
+    #services-section {
+        padding: 40px 0px;
+    }
+
+    #contact-section {
+        padding: 40px 0px;
+    }
+
+    .social-menu ul li a {
+        width: 35px;
+        height: 35px;
+    }
+
+    .contact-number a {
+        font-size: 14px;
+    }
+
+    .social-menu ul li a i {
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width: 1190px) {
+    .contact-form form button {
+        padding: 10px;
+    }
+
+    .single-services {
+        padding: 25px 10px;
+    }
+}
+
+@media all and (max-width: 1024px) {}
+
+@media all and (max-width: 990px) {
+    .header-logo a {
+        font-size: 24px;
+        padding: 8px 10px;
+        font-size: 16px;
+    }
+
+    .header-menu ul li {
+        padding: 10px 10px;
+    }
+
+    .header-menu ul li a {
+        font-size: 14px;
+    }
+
+    .header-menu ul li a.hire-me {
+        width: 85px;
+        height: 32px;
+        font-size: 14px;
+    }
+
+    .dod-img {
+        display: none;
+    }
+
+    .single-services h5 {
+        margin-bottom: 8px;
+    }
+
+    .single-services p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .contact-form form {
+        width: 90%;
+    }
+
+    .contact-form form input,
+    .contact-form form textarea {
+        padding: 15px 20px;
+    }
+
+    .contact-form form button {
+        margin: 10px auto 0px;
+    }
+
+    .contact-social-menu h4 {
+        font-size: 24px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    #banner-area {
+        min-height: 80vh;
+    }
+
+    #contact-section {
+        padding: 0px 0px 40px;
+    }
+
+.header-title {
+    margin-bottom: 25px;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bara-area {
+    display: block;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.bara-area span {
+    display: block;
+    width: 26px;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 6px;
+}
+
+.header-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: #64646C;
+    z-index: 999999999999;
+    padding: 15px;
+    transform: translate(100%, 0px);
+    transition: 0.5s;
+}
+
+.header-menu-come {
+    transform: translate(0%, 0px);
+}
+
+.close-area {
+    display: block;
+    text-align: right;
+    margin-bottom: 30px;
+}
+
+.close-area button {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 22px;
+    color: #fff;
+}
+
+
+.header-menu ul {
+    display: unset;
+}
+
+.header-menu ul li a {
+    font-size: 14px;
+}
+
+.about-image {
+    width: 100%;
+}
+
+.about-me-text p {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.skills .skills-progress {
+    width: 100%;
+}
+
+.offset-1 {
+    margin-left: unset;
+}
+
+.myGallery {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.single-services {
+    margin-bottom: 27px;
+    padding: 25px 0px;
+}
+.single-services h5 {
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.single-services p {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.single-services img {
+    width: 13%;
+}
+
+.contact-form form input,
+.contact-form form textarea {
+    padding: 10px 10px;
+}
+
+.contact-social-menu h4 {
+    font-size: 24px;
+    margin-bottom: 11px;
+}
+
+.contact-number ul li a {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.social-menu ul li a {
+    width: 30px;
+    height: 30px;
+}
+
+.social-menu ul li a i {
+    font-size: 14px;
+}
+
+.header-section {
+    padding: 8px 0px;
+}
+
+.myGallery a img {
+    width: 350px;
+    height: 230px;
+}
+
+#button {
+    width: 35px;
+    height: 35px;
+    bottom: 20px;
+    right: 20px;
+}
+
+#button::after {
+    font-size: 25px;
+}
+
+}
+
+@media all and (max-width: 575px) {
+
+    #banner-area {
+        min-height: 75vh;
+    }
+
+    #about-sectioin {
+        padding: 25px 0px;
+    }
+
+    #skill-section {
+        padding: 25px 0px;
+    }
+
+    #protfolio-section {
+        padding: 25px 0px;
+    }
+
+    #services-section {
+        padding: 25px 0px;
+    }
+
+    #contact-section {
+        padding: 25px 0px;
+    }
+
+    .header-text-area {
+        min-height: 40vh;
+    }
+
+    .header-text h1 {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 37px;
+    }
+
+    .header-title {
+        margin-bottom: 15px;
+    }
+
+    .header-title h2 {
+        font-size: 30px;
+    }
+
+    .about-image {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .about-image img {
+        width: 50%;
+    }
+
+    .about-me-text {
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .skills .item {
+        margin-bottom: 25px;
+    }
+
+    .item p {
+        font-size: 13px;
+    }
+
+    .single-services {
+        padding: 20px 0px;
+    }
+
+    .contact-form form {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .contact-social-menu {
+        margin-top: 43px;
+        text-align: center;
+    }
+
+    .bara-area span {
+        height: 2px;
+        margin-bottom: 4px;
+    }
+
+
+
+}
+
+@media all and (max-width: 428px) {
+    .contact-form form {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 414px) {
+    .about-me-text p {
+        line-height: 20px;
+    }
+    .myGallery {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+    }
+
+    .copy-right p {
+        font-size: 13px;
+    }
+
+    .header-menu ul li {
+        padding: 8px;
+    }
+}
+
+@media all and (max-width: 390px) {
+    .header-text h1 {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .row.align-center.container {
+        padding: 0px;
+    }
+
+    .header-logo a {
+        font-size: 24px;
+        padding: 4px 6px;
+        font-size: 10px;
+    }
+
+
+}
+
+@media all and (max-width: 375px) {}
+
+@media all and (max-width: 360px) {
+
+    .contact-number ul li a {
+        margin-bottom: 8px;
+        line-height: 20px;
+    }
+
+    .copy-right p {
+        font-size: 11px;
+    }
+
+    .header-menu {
+        width: 70%;
+        padding: 7px;
+    }
+}
+
+@media all and (max-width: 320px) {
+
+    #banner-area {
+        min-height: 60vh;
+    }
+
+    .header-text-area {
+        min-height: 35vh;
+    }
+
+    .header-text h1 {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .row.align-center.container {
+        padding: 0px;
+    }
+
+    .header-logo a {
+        padding: 5px 7px;
+        font-size: 16px;
+        font-size: 13px;
+    }
+
+    .bara-area span {
+        width: 21px;
+        height: 2px;
+        margin-bottom: 4px;
+    }
+}

@@ -1,0 +1,598 @@
+
+/*-----------------------------------------------------------------------------------
+
+	Template Name: Version College
+	Template URI: http://coderitem.com
+	Description: This is Version College web site. 
+	Author: SA Bappy
+	Author URI: http://sabappy.com
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+	1. TYPHOGRAPHY
+    2. Header-Area
+    3. About-Area
+    4. Skill-Area
+    5. Protfolio-Area
+    6. Services-Area
+    7. Contact-Area
+
+-----------------------------------------------------------------------------------*/
+
+/*****************************************************/
+/**************    1. Typography   *******************/
+/*****************************************************/
+/* font-family: 'Nunito', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    line-height: 14px;
+    color: #939393;
+    background: #FFFFFF;
+    font-weight: 300;
+}
+
+body {
+    line-height: unset;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body:focus {
+    background-color: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: none;
+    max-width: 100%
+}
+
+button {
+    border: none;
+}
+
+button:focus {
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 15px;
+    box-sizing: border-box;
+}
+
+.align-content {
+    align-items: center;
+}
+
+.align-top {
+    align-items: flex-start;
+}
+
+.justify-content {
+    justify-content: center;
+}
+
+/* .header-title */
+.header-title {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.header-title h2 {
+    color: #000;
+    font-size: 3rem;
+    font-weight: 300;
+    font-style: italic;
+}
+
+
+/*****************************************************/
+/**************    2. header-area  ***************/
+/*****************************************************/
+#banner-area {
+    background-image: url(img/h-t/3.png);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #ddd;
+    overflow: hidden;
+}
+
+.header-section {
+    padding: 4px 0px;
+    transition: 0.1s;
+}
+
+/* .header-2 {
+    position: fixed;
+    width: 100%;
+    background: #64646C;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+} */
+
+.header-logo {}
+
+.header-logo a {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 700;
+    border: 1px solid #ffffff;
+    padding: 6px 10px;
+}
+
+.bara-area {
+    display: none;
+}
+
+.close-area {
+    display: none;
+}
+
+.header-menu {}
+
+.header-menu ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-menu ul li {
+    padding: 10px 15px;
+}
+
+.header-menu ul li a {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 500;
+    transition: 0.3s;
+    position: relative;
+    letter-spacing: 1px;
+}
+
+.header-menu ul li a:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+.header-menu ul li a::after {
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 2px;
+    left: 0;
+    bottom: -4px;
+    background-color: #ff004f;
+    transition: 0.5s;
+}
+
+.header-menu ul li a:hover::after {
+    width: 100%;
+}
+
+
+.header-menu ul li a.hire-me {
+    width: 85px;
+    height: 28px;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 14px;
+    padding-top: 3px;
+}
+
+.header-menu ul li a.hire-me:hover::after {
+    width: unset;
+    height: unset;
+}
+
+/* header-text-area */
+.header-text-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 73vh;
+}
+
+.header-text {}
+
+.header-text h1 {
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 45px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+
+}
+
+/* loader-start */
+#loader {
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    top: 50%;
+    margin-top: -50px;
+    border: calc(200px / 10) solid #ddd;
+    border-top: 20px solid rgba(255,29,94,1);
+    border-radius: 100%;
+    box-shadow: 0px 0px 5px inset #ccc;
+    width: 100px;
+    height: 100px;
+    animation: spin 2s linear infinite;
+  }
+  
+
+/*****************************************************/
+/**************    3. About-area  ***************/
+/*****************************************************/
+#about-sectioin {
+    background-color: #FFFFFF;
+    padding: 100px 0px;
+    overflow: hidden;
+}
+
+.about-image {
+    position: relative;
+    z-index: 1;
+    width: 90%;
+}
+
+.dod-img {
+    position: absolute;
+    top: -30px;
+    right: -100px;
+    z-index: -1;
+}
+
+.about-image img {
+    width: 100%;
+}
+
+.about-me-text {
+    position: relative;
+    z-index: 1;
+    margin-left: 20px;
+}
+
+.about-me-text h2 {
+    font-size: 40px;
+    color: #000;
+    font-weight: 500;
+}
+
+.about-me-text p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+
+
+
+/*****************************************************/
+/**************    4. Skill-area  ***************/
+/*****************************************************/
+#skill-section {
+    background-color: #fff;
+    padding: 100px 0px;
+    overflow: hidden;
+}
+
+.skills .item {
+    margin-bottom: 40px;
+}
+
+.skills .skills-progress {
+    padding: 2px 10px;
+    background-color: #39374E;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.15) inset;
+    position: relative;
+    width: 230%;
+}
+
+.skills .skills-progress span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 10%;
+    background-color: #ff004f;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
+
+.skills .skills-progress span:after {
+    content: attr(data-value);
+    position: absolute;
+    top: -20px;
+    right: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #000000;
+}
+
+/*****************************************************/
+/**************    5. Protfolio-area  ***************/
+/*****************************************************/
+#protfolio-section {
+    padding: 100px 0px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.myGallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.myGallery a {
+    width: 100%;
+    position: relative;
+}
+
+.myGallery a:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    left: 0;
+    right: 0;
+    opacity: 0;
+    visibility: hidden;
+    cursor: zoom-in;
+    transition: 0.5s;
+    z-index: 1111;
+}
+.myGallery a:hover:after {
+    opacity: 1;
+    visibility: visible;
+}
+
+.myGallery a img {
+    width: 100%;
+    height: 100%;
+}
+
+/*****************************************************/
+/**************    6. services-Area  ***************/
+/*****************************************************/
+
+#services-section {
+    background-color: #fff;
+    padding: 100px 0px;
+    overflow: hidden;
+}
+
+.single-services {
+    border: 1px solid #ddd;
+    padding: 30px;
+    text-align: center;
+}
+
+.single-services img {
+    width: 32%;
+
+    margin-bottom: 15px;
+}
+
+.single-services h5 {
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+
+.single-services p {
+    line-height: 25px;
+}
+
+
+
+
+/*****************************************************/
+/**************    7. Contact-Area  ***************/
+/*****************************************************/
+
+#contact-section {
+    background-color: #fff;
+    padding: 100px 0px;
+    overflow: hidden;
+}
+
+.contact-form {}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 600px;
+}
+
+.contact-form form input,
+.contact-form form textarea {
+    padding: 20px;
+    outline: none;
+    border: none;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.contact-form form textarea {}
+
+.contact-form form button {
+    outline: none;
+    border: none;
+    background-color: #ff004f;
+    padding: 15px 20px;
+    width: 100%;
+    margin: 15px auto 0px;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+
+
+.contact-social-menu h4 {
+    color: #000;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.contact-number {}
+
+.contact-number ul li a {
+    color: #96BB7C;
+    margin-bottom: 15px;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.contact-number ul li a i {
+    margin-right: 10px;
+}
+
+.social-menu {
+    margin-top: 20px;
+}
+
+.social-menu ul {}
+
+.social-menu ul li {
+    display: inline-block;
+    padding: 0px 10px 0px 0px;
+}
+
+.social-menu ul li a {
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(160, 160, 160);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+.social-menu ul li a i {
+    font-size: 18px;
+    color: rgb(160, 160, 160);
+}
+
+/*****************************************************/
+/**************    7. copy-right-Area  ***************/
+/*****************************************************/
+.all-copy-right {
+    overflow: hidden;
+    background: #ddd;
+    padding: 20px 0px;
+}
+
+.copy-right {
+    text-align: center;
+}
+
+.copy-right p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+}
+
+.copy-right p a {
+    color: #ff004f;
+}
+
+/* Back-To-Top */
+#button {
+    display: inline-block;
+    background-color: #ff004f;
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s,
+        opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#button::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    color: #fff;
+}
+
+#button:hover {
+    cursor: pointer;
+    background-color: #ff004f;
+}
+
+#button:active {
+    background-color: #555;
+}
+
+#button.show {
+    opacity: 1;
+    visibility: visible;
+}
